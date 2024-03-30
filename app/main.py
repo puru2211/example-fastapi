@@ -35,7 +35,7 @@ class Post(BaseModel):
     published:bool=True
     rating: Optional[int]=None
 
-my_posts = [{"title":"new title1","content":"New content1","id":1},{"title":"new title2","content":"New content2","id":2},{"title":"new title3","content":"New content3","id":3}]
+my_posts = [{"title":"new title1","content":"New content1","id":1},{"title":"new title2","content":"New content2","id":2},{"title":"new title3","content":"New content4","id":4}]
 
 @app.get("/")
 def root():
